@@ -1,0 +1,69 @@
+.logo img {
+  width: 35%;
+}
+
+.headerContainer {
+  background-color: white;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  border-bottom: ridge 3px #fbfbfb;
+  display: flex;
+  gap: 20;
+  padding-top: 20px;
+  z-index: 5;
+}
+
+.logoContainer {
+  width: 600px;
+  margin-left: 130px;
+}
+
+.navigationMenu {
+  margin-left: 90px;
+}
+
+.buttonContainer {
+  margin-left: 15px;
+}
+
+.navigationMenu ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+.navigationMenu ul li {
+  list-style-type: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  color: #797171;
+}
+
+.navigationMenu ul li:hover {
+  color: #fe8402;
+}
+
+.signInOutButton {
+  background-color: #036cdb;
+  color: white;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  border-color: #036cdb;
+  border-radius: 3px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.signInOutButton:hover {
+  background-color: #fe8402;
+  border-color: #fe8402;
+}
+
+a {
+  text-decoration: none;
+}

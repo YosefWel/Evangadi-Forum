@@ -1,0 +1,18 @@
+.text-gradin {
+  background: linear-gradient(
+    90deg,
+    rgb(210, 80, 31),
+    rgb(153, 43, 0),
+    rgb(71, 20, 0)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 634px) {
+  .costume_style_container {
+    display: none;
+  }
+}
+body {
+  scroll-behavior: smooth;
+}
